@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F5D3DD6244FDBCD00D33849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F5D3DD5244FDBCD00D33849 /* Assets.xcassets */; };
+		3F5D3DE4244FDC6000D33849 /* LettuceVote_Icon_Transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5D3DD7244FDC5E00D33849 /* LettuceVote_Icon_Transparent.png */; };
+		3F5D3DE5244FDC6000D33849 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5D3DD8244FDC5E00D33849 /* SceneDelegate.swift */; };
+		3F5D3DE6244FDC6000D33849 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5D3DD9244FDC5E00D33849 /* ViewController.swift */; };
+		3F5D3DE8244FDC6000D33849 /* locationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5D3DDB244FDC5E00D33849 /* locationViewController.swift */; };
+		3F5D3DE9244FDC6000D33849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5D3DDC244FDC5E00D33849 /* Main.storyboard */; };
+		3F5D3DEA244FDC6000D33849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5D3DDD244FDC5F00D33849 /* LaunchScreen.storyboard */; };
+		3F5D3DEB244FDC6000D33849 /* MyTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5D3DDE244FDC5F00D33849 /* MyTabViewController.swift */; };
+		3F5D3DEC244FDC6000D33849 /* myTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5D3DDF244FDC5F00D33849 /* myTableViewController.swift */; };
+		3F5D3DED244FDC6000D33849 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5D3DE0244FDC5F00D33849 /* detailViewController.swift */; };
+		3F5D3DEE244FDC6000D33849 /* Chewy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F5D3DE1244FDC5F00D33849 /* Chewy-Regular.ttf */; };
+		3F5D3DEF244FDC6000D33849 /* endVotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5D3DE2244FDC5F00D33849 /* endVotingViewController.swift */; };
+		3F5D3DF0244FDC6000D33849 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F5D3DE3244FDC6000D33849 /* GoogleService-Info.plist */; };
+		3F5D3DF3244FDC6800D33849 /* addressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5D3DF1244FDC6800D33849 /* addressViewController.swift */; };
+		3F5D3DF4244FDC6800D33849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5D3DF2244FDC6800D33849 /* AppDelegate.swift */; };
+		883C32496AB663B12629C097 /* Pods_LettuceVote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09CF37EEEA9C1FBC7B293DA /* Pods_LettuceVote.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F5D3DD5244FDBCD00D33849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F5D3DD7244FDC5E00D33849 /* LettuceVote_Icon_Transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LettuceVote_Icon_Transparent.png; sourceTree = "<group>"; };
+		3F5D3DD8244FDC5E00D33849 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F5D3DD9244FDC5E00D33849 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F5D3DDA244FDC5E00D33849 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F5D3DDB244FDC5E00D33849 /* locationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = locationViewController.swift; sourceTree = "<group>"; };
+		3F5D3DDC244FDC5E00D33849 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3F5D3DDD244FDC5F00D33849 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F5D3DDE244FDC5F00D33849 /* MyTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabViewController.swift; sourceTree = "<group>"; };
+		3F5D3DDF244FDC5F00D33849 /* myTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myTableViewController.swift; sourceTree = "<group>"; };
+		3F5D3DE0244FDC5F00D33849 /* detailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		3F5D3DE1244FDC5F00D33849 /* Chewy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chewy-Regular.ttf"; sourceTree = "<group>"; };
+		3F5D3DE2244FDC5F00D33849 /* endVotingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = endVotingViewController.swift; sourceTree = "<group>"; };
+		3F5D3DE3244FDC6000D33849 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3F5D3DF1244FDC6800D33849 /* addressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addressViewController.swift; sourceTree = "<group>"; };
+		3F5D3DF2244FDC6800D33849 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FDD9C43244FCF0F00E23C76 /* LettuceVote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LettuceVote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6101CC11D3407F9E079A0935 /* Pods-LettuceVote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LettuceVote.debug.xcconfig"; path = "Target Support Files/Pods-LettuceVote/Pods-LettuceVote.debug.xcconfig"; sourceTree = "<group>"; };
+		A09CF37EEEA9C1FBC7B293DA /* Pods_LettuceVote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LettuceVote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0B204077840D834D5DC3F14 /* Pods-LettuceVote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LettuceVote.release.xcconfig"; path = "Target Support Files/Pods-LettuceVote/Pods-LettuceVote.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FDD9C40244FCF0F00E23C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883C32496AB663B12629C097 /* Pods_LettuceVote.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		072574CDAAB8DC27B73458B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A09CF37EEEA9C1FBC7B293DA /* Pods_LettuceVote.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FDD9C3A244FCF0F00E23C76 = {
+			isa = PBXGroup;
+			children = (
+				3FDD9C45244FCF0F00E23C76 /* LettuceVote */,
+				3FDD9C44244FCF0F00E23C76 /* Products */,
+				7DC519BE35400344729FE6EE /* Pods */,
+				072574CDAAB8DC27B73458B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FDD9C44244FCF0F00E23C76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FDD9C43244FCF0F00E23C76 /* LettuceVote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FDD9C45244FCF0F00E23C76 /* LettuceVote */ = {
+			isa = PBXGroup;
+			children = (
+				3F5D3DE1244FDC5F00D33849 /* Chewy-Regular.ttf */,
+				3F5D3DE0244FDC5F00D33849 /* detailViewController.swift */,
+				3F5D3DE2244FDC5F00D33849 /* endVotingViewController.swift */,
+				3F5D3DE3244FDC6000D33849 /* GoogleService-Info.plist */,
+				3F5D3DDA244FDC5E00D33849 /* Info.plist */,
+				3F5D3DDD244FDC5F00D33849 /* LaunchScreen.storyboard */,
+				3F5D3DD7244FDC5E00D33849 /* LettuceVote_Icon_Transparent.png */,
+				3F5D3DDB244FDC5E00D33849 /* locationViewController.swift */,
+				3F5D3DDC244FDC5E00D33849 /* Main.storyboard */,
+				3F5D3DDF244FDC5F00D33849 /* myTableViewController.swift */,
+				3F5D3DDE244FDC5F00D33849 /* MyTabViewController.swift */,
+				3F5D3DF1244FDC6800D33849 /* addressViewController.swift */,
+				3F5D3DF2244FDC6800D33849 /* AppDelegate.swift */,
+				3F5D3DD8244FDC5E00D33849 /* SceneDelegate.swift */,
+				3F5D3DD9244FDC5E00D33849 /* ViewController.swift */,
+				3F5D3DD5244FDBCD00D33849 /* Assets.xcassets */,
+			);
+			path = LettuceVote;
+			sourceTree = "<group>";
+		};
+		7DC519BE35400344729FE6EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6101CC11D3407F9E079A0935 /* Pods-LettuceVote.debug.xcconfig */,
+				E0B204077840D834D5DC3F14 /* Pods-LettuceVote.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FDD9C42244FCF0F00E23C76 /* LettuceVote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FDD9C57244FCF1B00E23C76 /* Build configuration list for PBXNativeTarget "LettuceVote" */;
+			buildPhases = (
+				70F8C7DFCC0A7C18A80D3B20 /* [CP] Check Pods Manifest.lock */,
+				3FDD9C3F244FCF0F00E23C76 /* Sources */,
+				3FDD9C40244FCF0F00E23C76 /* Frameworks */,
+				3FDD9C41244FCF0F00E23C76 /* Resources */,
+				1662F0FB1ABE22E5A06CA5E8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LettuceVote;
+			productName = LettuceVote;
+			productReference = 3FDD9C43244FCF0F00E23C76 /* LettuceVote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FDD9C3B244FCF0F00E23C76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Jeremy Cohen";
+				TargetAttributes = {
+					3FDD9C42244FCF0F00E23C76 = {
+						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
+					};
+				};
+			};
+			buildConfigurationList = 3FDD9C3E244FCF0F00E23C76 /* Build configuration list for PBXProject "LettuceVote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FDD9C3A244FCF0F00E23C76;
+			productRefGroup = 3FDD9C44244FCF0F00E23C76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FDD9C42244FCF0F00E23C76 /* LettuceVote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FDD9C41244FCF0F00E23C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5D3DE4244FDC6000D33849 /* LettuceVote_Icon_Transparent.png in Resources */,
+				3F5D3DF0244FDC6000D33849 /* GoogleService-Info.plist in Resources */,
+				3F5D3DE9244FDC6000D33849 /* Main.storyboard in Resources */,
+				3F5D3DEE244FDC6000D33849 /* Chewy-Regular.ttf in Resources */,
+				3F5D3DEA244FDC6000D33849 /* LaunchScreen.storyboard in Resources */,
+				3F5D3DD6244FDBCD00D33849 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1662F0FB1ABE22E5A06CA5E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LettuceVote/Pods-LettuceVote-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LettuceVote/Pods-LettuceVote-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LettuceVote/Pods-LettuceVote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70F8C7DFCC0A7C18A80D3B20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LettuceVote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FDD9C3F244FCF0F00E23C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5D3DEC244FDC6000D33849 /* myTableViewController.swift in Sources */,
+				3F5D3DEB244FDC6000D33849 /* MyTabViewController.swift in Sources */,
+				3F5D3DE8244FDC6000D33849 /* locationViewController.swift in Sources */,
+				3F5D3DF4244FDC6800D33849 /* AppDelegate.swift in Sources */,
+				3F5D3DF3244FDC6800D33849 /* addressViewController.swift in Sources */,
+				3F5D3DE6244FDC6000D33849 /* ViewController.swift in Sources */,
+				3F5D3DEF244FDC6000D33849 /* endVotingViewController.swift in Sources */,
+				3F5D3DE5244FDC6000D33849 /* SceneDelegate.swift in Sources */,
+				3F5D3DED244FDC6000D33849 /* detailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3FDD9C55244FCF1B00E23C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FDD9C56244FCF1B00E23C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FDD9C58244FCF1B00E23C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6101CC11D3407F9E079A0935 /* Pods-LettuceVote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QB7Y6J6UHC;
+				INFOPLIST_FILE = LettuceVote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Duke.lec1.LettuceVote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FDD9C59244FCF1B00E23C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0B204077840D834D5DC3F14 /* Pods-LettuceVote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QB7Y6J6UHC;
+				INFOPLIST_FILE = LettuceVote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Duke.lec1.LettuceVote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FDD9C3E244FCF0F00E23C76 /* Build configuration list for PBXProject "LettuceVote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDD9C55244FCF1B00E23C76 /* Debug */,
+				3FDD9C56244FCF1B00E23C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FDD9C57244FCF1B00E23C76 /* Build configuration list for PBXNativeTarget "LettuceVote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDD9C58244FCF1B00E23C76 /* Debug */,
+				3FDD9C59244FCF1B00E23C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FDD9C3B244FCF0F00E23C76 /* Project object */;
+}
